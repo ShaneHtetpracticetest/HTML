@@ -1,0 +1,25 @@
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    background-color: rgba(197, 96, 2, 1); /* Background color for the box */
+    padding: 20px; /* Padding inside the box */
+    border-radius: 20px; /* Border radius for the box */
+}
+
+.photo {
+    border-radius: 40px; /* Border radius for the image */
+    width: 100%; /* Adjust based on your requirement */
+    max-width: 300px; /* Adjust based on your requirement */
+}
+
+.text-box {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: white; /* Background color for the text box */
+    border-radius: 10px; /* Border radius for the text box */
+    text-align: center;
+    width: 100%; /* Adjust based on your requirement */
+    max-width: 300px; /* Adjust based on your requirement */
+}
